@@ -11,4 +11,5 @@ var dados = new ParamsDataTable("Dados extraidos", @"C:\Temp", new List<DataTabl
     new DataTables("Noticias", site)
 });
 
+//Para gerar o excel
 Base.GenerateExcel(dados);
